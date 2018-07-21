@@ -1,0 +1,43 @@
+.logistic_flow_container {
+  font-size: 12px;
+}
+.logistic_flow_container::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 2.5px;
+  top: 0;
+  background: rgb(213, 213, 213);
+}
+
+.order-item-pay-btn {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  background: #F0B91A;
+  color: white;
+  cursor: pointer;
+}
+.order-item-prim-btn {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  background: #006CCD;
+  color: white;
+  cursor: pointer;
+}
+.order-item-text-btn {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+.order-item-text-btn:hover {
+  color: #006CCD;
+}

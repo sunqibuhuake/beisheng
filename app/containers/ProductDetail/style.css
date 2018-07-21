@@ -1,0 +1,33 @@
+.product-tabs-nav-item {
+  width: 160px;
+  height: 45px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+.product-tabs-nav-item.active {
+  background: #0070c9;
+  color: white;
+}
+.product-tabs-nav-item:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+  height: 2px;
+  background: #0070c9;
+}
+.product-tabs-content-hidden {
+  display: none!important;
+}
+.product-tabs-content img {
+  width: 100%!important;
+}
+.detail-add-cart-btn:hover {
+  color: white!important;
+  background: #0070c9;
+
+}

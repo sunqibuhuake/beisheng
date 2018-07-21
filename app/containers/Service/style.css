@@ -1,0 +1,7 @@
+.col-1-5 {
+  height: auto;
+  width: 20%;
+  position: relative;
+  float: left;
+  display: inline-block;
+}

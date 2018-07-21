@@ -1,0 +1,59 @@
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.landcards {
+  width: 80%;
+  margin: 0 auto;
+}
+.landcards ul {
+  width: 242px;
+  min-height: 340px;
+  display: inline-block;
+  margin: 0 0 0 8px;
+  text-align: center;
+  background: #FFF;
+  vertical-align: top;
+}
+
+.landcards ul li.pic {
+  width: 230px;
+  height: 180px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.landcards ul li.pic img {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.landcards ul li {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.landcards ul li.txt {
+  margin-top: 30px;
+}
+.landcards .landcard_btn {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.col-1-5 {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.seller-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

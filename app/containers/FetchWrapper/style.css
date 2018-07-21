@@ -1,0 +1,8 @@
+.bs-fetch-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  min-height: 100%;
+}

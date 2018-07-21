@@ -1,0 +1,14 @@
+/**
+ * Created by sunqi on 2018/5/13.
+ */
+const sizer = {
+  MAX_WIDTH: 1024,
+  WIDTH_PERCENTAGE: '80%',
+  ORDER_LIST_HEADER_HEIGHT: 32,
+  ORDER_LIST_HEADER_FONTSIZE: 14,
+  ORDER_LIST_BODY_FONTSIZE: 14,
+  ORDER_LIST_BODY_HEIGHT: 120,
+  ORDER_LIST_IMG_SIZE: 80
+}
+
+export default sizer

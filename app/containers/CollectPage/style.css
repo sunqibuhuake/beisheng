@@ -1,0 +1,8 @@
+.cat-nav-span {
+}
+.cat-nav-span:hover {
+  color: #2481CA;
+}
+.cat-nav-span.active {
+  color: #2481CA;
+}

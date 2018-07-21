@@ -1,0 +1,57 @@
+.vertical_text {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.borderRight{
+  border-right: 1px solid #e1e1e1;
+}
+.borderLeft{
+  border-left: 1px solid #e1e1e1;
+}
+.order-item-pay-btn {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  background: #F0B91A;
+  color: white;
+  cursor: pointer;
+}
+.order-item-prim-btn {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  background: #006CCD;
+  color: white;
+  cursor: pointer;
+}
+.order-item-text-btn {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+.order-item-text-btn:hover {
+  color: #006CCD;
+}

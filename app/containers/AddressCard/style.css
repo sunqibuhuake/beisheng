@@ -1,0 +1,19 @@
+.ant-modal-content {
+  border-radius: 0!important;
+  padding-top: 32px!important;
+}
+
+.row-edit-text-btn{
+  cursor: pointer;
+}
+
+.row-edit-text-btn:hover{
+  color: rgb(2, 112, 201);
+}
+
+.row-delete-text-btn {
+  cursor: pointer;
+}
+.row-delete-text-btn:hover{
+  color: rgb(255, 76, 74);
+}

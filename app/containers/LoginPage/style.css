@@ -1,0 +1,49 @@
+.bs-input {
+  outline:none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+.get_verify_code:hover{
+  /*background: rgb(194, 194, 194)!important;*/
+}
+.clear_username_btn:hover {
+  background: #e1e1e1!important;
+}
+
+
+.ant-modal-content {
+  border-radius: 0!important;
+}
+
+.login-cancle {
+  width: 96px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  color: #188fff;
+  cursor: pointer;
+}
+
+.login-cancle:hover {
+  border: 1px solid #959595;
+}
+
+.login-card-container {
+  width: 760px;
+
+}
+@media screen and (max-width: 1015px) {
+  .login-card-container {
+    width: 760px;
+  }
+}
+
+
+
+@media screen and (min-width: 1520px) {
+  .login-card-container {
+    width: 50%
+  }
+}

@@ -1,0 +1,10 @@
+.entry-gird-text p {
+  margin-bottom:0px;
+}
+.entry-gird-text span {
+  background: #b1b0b0;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 2px;
+  font-size: 14px;
+}

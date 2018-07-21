@@ -1,0 +1,70 @@
+.bs-nav-link a{
+  color: white;
+}
+.bs-nav-search-open,.bs-nav-search-close {
+  height: 45px;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.bs-nav-search-open {
+  text-align: right;
+  padding-right: 24px;
+}
+.bs-nav-search-close {
+  text-align: left;
+  padding-left: 24px;
+}
+
+.bs-nav-search-input {
+  display: block;
+  margin: 4px 0;
+  padding: 0 12px;
+  width: 100%;
+  /*background: #424040;*/
+  outline: none;
+  color: #d4d4d4;
+  height: 36px;
+  border-radius: 22px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.ant-dropdown {
+  padding-top: 22px!important;
+
+}
+.ant-dropdown-menu {
+  border-radius: 0!important;
+  background: white!important;
+  padding: 12px!important;
+
+}
+.ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+  color: #55ABD7!important;
+}
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+  color: rgba(0,0,0,0.7)!important;
+  background-color: transparent!important;
+}
+
+.ant-dropdown-menu-item > a, .ant-dropdown-menu-submenu-title > a {
+  color: #55ABD7!important;
+  padding: 5px 12px;
+  margin: -5px -12px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.ant-dropdown-menu-item > a:hover, .ant-dropdown-menu-submenu-title > a:hover {
+  color: rgba(0,0,0,0.7)!important;
+}
+.ant-dropdown-menu-item-divider, .ant-dropdown-menu-submenu-title-divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.5);
+  line-height: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+

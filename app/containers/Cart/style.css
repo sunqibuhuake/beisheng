@@ -1,0 +1,10 @@
+.cart-list-action-delete {
+  background: #a7a7a7;
+  color: white;
+  padding:2px 12px;
+  cursor: pointer;
+}
+.cart-list-action-delete:hover {
+  background: #ff4c4a;
+
+}
