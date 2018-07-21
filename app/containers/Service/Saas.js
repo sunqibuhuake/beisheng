@@ -18,7 +18,7 @@ import icon11 from './assets/icon11.png'
 export default class Shouhou extends React.PureComponent{
   render() {
     return (
-      <div style={{minHeight: '100%', background: 'white'}}>
+      <div style={{minHeight: '100%', background: 'white', color: '#333333'}}>
         <Container>
           <Title
             title="Service 4 me，专家上门服务"

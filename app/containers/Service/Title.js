@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function(props) {
   return (
-    <div>
+    <div style={{color: '#333333'}}>
       <div
         style={{fontSize: 32, marginBottom: 24, fontWeight: 'bold'}}
       >

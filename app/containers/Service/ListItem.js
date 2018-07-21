@@ -22,7 +22,7 @@ export default function(props) {
         <Col span={12} className="fh">
 
           <div className="vertical-center">
-            <div style={{fontSize: '14', textAlign: 'left'}}>
+            <div style={{fontSize: '14', textAlign: 'left', width: '100%'}}>
               {props.desc}
             </div>
           </div>

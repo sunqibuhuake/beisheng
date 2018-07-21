@@ -5,10 +5,10 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import LandCard from './LandCard'
 import {Row} from 'antd'
-import mac_img from './assets/pic-home-0.png'
-import ipad_img from './assets/pic-home-1.png'
-import iphone_img from './assets/pic-home-2.png'
-import iwatch_img from './assets/pic-home-3.png'
+import mac_img from './assets/mac.png'
+import ipad_img from './assets/ipad.png'
+import iphone_img from './assets/iphone.png'
+import iwatch_img from './assets/iwatch.png'
 
 export default function LandCardsList(props) {
 

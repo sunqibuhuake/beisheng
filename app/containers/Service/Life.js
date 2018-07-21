@@ -61,7 +61,7 @@ export default class Shouhou extends React.PureComponent{
 
     ]
     return (
-      <div style={{minHeight: '100%'}}>
+      <div style={{minHeight: '100%', color: '#333333'}}>
         <Container>
           <Title
             title="设备生命周期管理服务"

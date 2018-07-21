@@ -68,3 +68,21 @@
   margin: 0 auto;
 }
 
+.nav-item-icon {
+  height: 16px;
+  width: 16px;
+}
+.nav-item-icon-active {
+  height: 16px;
+  width: 16px;
+  display: none;
+}
+
+.ant-dropdown-menu-item > a:hover .nav-item-icon, .ant-dropdown-menu-submenu-title > a:hover .nav-item-icon{
+  display: none;
+}
+.ant-dropdown-menu-item > a:hover .nav-item-icon-active, .ant-dropdown-menu-submenu-title > a:hover .nav-item-icon-active{
+  display: inherit;
+}
+
+

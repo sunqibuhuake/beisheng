@@ -22,23 +22,23 @@ const list = [
   {
     img: img1,
     title: 'iPad',
-    desc: '电池、电源与充电，Apple ID 和密码，设置和使用，App Store 、iTunes Store 和“音乐” Inter'
+    desc: '电池、电源与充电，Apple ID 和密码，设置和使用，App Store 、iTunes Store 和“音乐” Internet 与 AirPlay ，iOS 和应用程序，iPad 配件，维修和物理损坏。'
   },
   {
     img: img2,
     title: 'iPhone',
-    desc: '维修和物理损坏，电池、电源与充电，Apple ID 和密码，系统性能，蜂窝移动网络和 Wi-Fi App Store、iTun'
+    desc: '维修和物理损坏，电池、电源与充电，Apple ID 和密码，系统性能，蜂窝移动网络和 Wi-Fi App Store、iTunes Store 和“音乐”，iOS 和 应用程序，iCloud、Facetime 与信息。'
   },
   {
     img: img3,
     title: 'Mac',
-    desc: '启动或开机，硬件问题，安装与更新，软件与使用，Apple ID 和密码， internet 与连接性邮件 iTunes Sto'
+    desc: '启动或开机，硬件问题，安装与更新，软件与使用，Apple ID 和密码， internet 与连接性邮件 iTunes Store 与 App Store 。'
   }
 ]
 export default class Shouhou extends React.PureComponent{
   render() {
     return (
-      <div style={{minHeight: '100%', background: 'white'}}>
+      <div style={{minHeight: '100%', background: 'white',color: '#333333'}}>
         <Container>
           <Title
             mb={1}

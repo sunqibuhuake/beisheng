@@ -26,7 +26,11 @@ function Footer(props) {
 
       list: [
         {
-          name: '支付方式/发票说明',
+          name: '支付方式',
+          path: '/intro'
+        },
+        {
+          name: '发票说明',
           path: '/intro'
         },
         {
@@ -83,7 +87,7 @@ function Footer(props) {
           path: '/intro'
         },
         {
-          name: '经销商门店',
+          name: '经销商地址',
           path: '/intro'
         },
         {

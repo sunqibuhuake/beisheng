@@ -14,7 +14,16 @@ import NavBtn from './NavBtn'
 import SearchInput from './SearchInput'
 import IconBox from './IconBox'
 import WebLogo from './WebLogo'
+import fuwu_menu from './FuwuMenu'
 import './style.css'
+import icon5_1 from './assets/05 blue.png'
+import icon5_2 from './assets/05 black.png'
+import icon6_1 from './assets/06 blue.png'
+import icon6_2 from './assets/06 black.png'
+import icon7_1 from './assets/07 blue.png'
+import icon7_2 from './assets/07 black.png'
+import icon8_1 from './assets/08 blue.png'
+import icon8_2 from './assets/08 black.png'
 
 class Header extends React.Component {
 
@@ -137,7 +146,8 @@ class Header extends React.Component {
         <MenuItem key="0">
           <Link to='/profile'>
               <span style={{marginRight: 6}}>
-              <Icon type="user"/>
+                            <img className="nav-item-icon" src={icon5_1}/>
+              <img className="nav-item-icon-active" src={icon5_2}/>
             </span>
             个人中心
           </Link>
@@ -146,7 +156,8 @@ class Header extends React.Component {
         <MenuItem key="1">
           <Link to='/collects/1'>
                 <span style={{marginRight: 6}}>
-                              <Icon type="heart-o"/>
+                          <img className="nav-item-icon" src={icon6_1}/>
+              <img className="nav-item-icon-active" src={icon6_2}/>
             </span>
             我的收藏
           </Link>
@@ -156,7 +167,8 @@ class Header extends React.Component {
           <Link to='/orders/1'>
 
             <span style={{marginRight: 6}}>
-              <Icon type="profile"/>
+                            <img className="nav-item-icon" src={icon7_1}/>
+              <img className="nav-item-icon-active" src={icon7_2}/>
             </span>
             我的订单
           </Link>
@@ -165,7 +177,8 @@ class Header extends React.Component {
         <MenuItem key="3">
 
             <span style={{marginRight: 6}}>
-          <Icon type="logout"/>
+                       <img className="nav-item-icon" src={icon8_1}/>
+              <img className="nav-item-icon-active" src={icon8_2}/>
             </span>
           <span onClick={this.logout.bind(this)}>
             退出
@@ -174,48 +187,7 @@ class Header extends React.Component {
       </Menu>
     );
 
-    const fuwu_menu = (
-      <Menu>
-        <MenuItem key="0">
-          <Link to='/service/trainning'>
-            <span style={{marginRight: 6}}>
-              <Icon type="user"/>
-            </span>
-            专家培训服务
-          </Link>
-          <div style={styles.diliver}></div>
-        </MenuItem>
-        <MenuItem key="1">
-          <Link to='/service/saas'>
-             <span style={{marginRight: 6}}>
-               <Icon type="star-o"/>
-            </span>
-            专家上门服务
-          </Link>
-          <div style={styles.diliver}></div>
 
-        </MenuItem>
-        <MenuItem key="2">
-          <Link to='/service/life'>
-
-            <span style={{marginRight: 6}}>
-              <Icon type="setting"/>
-            </span>
-            设备生命周期管理服务
-          </Link>
-          <div style={styles.diliver}></div>
-
-        </MenuItem>
-        <MenuItem key="3">
-          <Link to='/service/shouhou'>
-            <span style={{marginRight: 6}}>
-              <Icon type="customer-service"/>
-            </span>
-            Apple 授权维修服务
-          </Link>
-        </MenuItem>
-      </Menu>
-    );
 
     let nav_content = null;
 

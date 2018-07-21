@@ -11,11 +11,9 @@ export default function(props) {
       </div>
       <a href="/intro#about-intro">
         <div>
-          进一步了解 >
+          <span style={{color: '#4a93d1'}}>进一步了解 > </span>
         </div>
       </a>
-
-
     </div>
   )
 }

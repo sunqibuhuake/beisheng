@@ -46,7 +46,8 @@ const styles = {
     width: 96,
     height: 36,
     lineHeight: '36px',
-    fontSize: 14
+    fontSize: 14,
+    background: '#2e8af7'
   },
   verifyBtn: {
     color: '#1890ff',

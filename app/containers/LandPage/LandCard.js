@@ -17,10 +17,10 @@ export  default function LandCard(props) {
       lineHeight: 2
     },
     btn: {
-      color: '#1D98E1'
+      color: '#4a93d1'
     },
     card: {
-      background: '#F2F2F2',
+      background: '#f2f2f2',
       paddingTop: 12,
       paddingBottom: 24
     },
@@ -37,9 +37,11 @@ export  default function LandCard(props) {
       <div style={styles.card}>
         <div style={{
           width: '80%',
-          margin: '0 auto'
+          margin: '0 auto',
+          textAlign: 'center',
+          padding: '48px 0'
         }}>
-          <img style={{width: '100%'}} src={props.img}/>
+          <img style={{height: 144,maxWidth: '100%'}} src={props.img}/>
         </div>
         <div  style={styles.title}>
           {props.name}<br/>
@@ -49,7 +51,7 @@ export  default function LandCard(props) {
           了解更多可选的{props.name}产品
           <Link to={props.link}>
             <div style={styles.btn}>
-              完整选购
+              开始选购
               <span style={{marginRight: 2}}>
                 <Icon type="right"/>
               </span>

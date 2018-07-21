@@ -11,7 +11,7 @@ if (h == 'www.employeechoice.cn' || h == 'employeechoice.cn') {
 } else {
   HOST = 'http://manage_test.employeechoice.cn'
 }
-HOST = 'http://manage.employeechoice.cn'
+//HOST = 'http://manage.employeechoice.cn'
 
 //export HOST;
 export default {

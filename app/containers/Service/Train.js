@@ -19,7 +19,7 @@ import IF from './IF'
 export default class Shouhou extends React.PureComponent{
   render() {
     return (
-      <div style={{minHeight: '100%'}}>
+      <div style={{minHeight: '100%', color: '#333333'}}>
         <Container>
           <Title
             title="专家培训服务"
